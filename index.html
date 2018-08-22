@@ -1,205 +1,308 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-	<title>Shower Presentation Engine</title>
+	<title>Проблемы белых идей. Pt.5</title>
 	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="node_modules/shower-ribbon/styles/styles.css">
-	<style>
-        .shower {
-            --slide-ratio: calc(16 / 9);
-        }
-    </style>
+	<link rel="stylesheet" href="pwi-theme/styles/styles.css">
 </head>
 <body class="shower list">
 
 	<header class="caption">
-		<h1>Shower Presentation Engine</h1>
-		<p>Yours Truly, Famous Inc.</p>
+		<h1>Проблемы Белых Идей</h1>
+		<p>Пятая часть. Финальная.</p>
 	</header>
 
 	<section class="slide" id="cover">
-		<h2>Shower Presentation Engine</h2>
-		<p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
-		<figure>
-			<img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
-			<figcaption class="copyright right white">
-				<a href="http://fiftyfootshadows.net/">© John Carey</a>
-			</figcaption>
-		</figure>
+		<div>
+			<h2>
+				Слабость воли.
+			</h2>
+			<p>Как развить и укрепить</p>
+			<span>by <a href="https://t.me/martyns0n" target="_blank">Martyn</a> & <a href="https://vk.com/pancho.sancho" target="_blank">Sanch</a></span>
+			<figure>
+				<!-- ДОБАВИТЬ ИЗОБРАЖЕНИЕ ЗЛОЙ ОБЕЗЬЯНЫ -->
+				<img class="" src="pictures/PWI-pt4/PWI-pt4-picture.png" alt="" style="height: 100%; position: absolute; right: 0; bottom: 0; z-index: -1">
+			</figure>
+		</div>
 		<style>
 			#cover h2 {
-				margin: 30px 0 0;
-				color: white;
-				text-align: center;
-				font-size: 70px;
-			}
-
+				margin:30px 0 0;
+				text-align:left;
+				font-weight: bold;
+				font-size:70px;
+				}
 			#cover p {
-				margin: 10px 0 0;
-				text-align: center;
-				color: white;
-				font-style: italic;
+				margin:10px 0 0;
+				text-align:left;
+				font-size:30px;
+			}
+			#cover span {
 				font-size: 20px;
 			}
-
-			#cover p a {
-				color: white;
-			}
 		</style>
 	</section>
 
 	<section class="slide">
-		<h2>Shower key features</h2>
-		<ol>
-			<li>Built on HTML, CSS and JavaScript</li>
-			<li>Works in all modern browsers</li>
-			<li>Themes are separated from engine</li>
-			<li>Fully keyboard accessible</li>
-			<li>Printable to PDF</li>
-		</ol>
-		<p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-	</section>
-
-	<section class="slide">
-		<h2>Plain text on your slides</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
-	</section>
-
-	<section class="slide">
-		<h2>Two columns if you like</h2>
-		<div class="columns two">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-		</div>
-	</section>
-
-	<section class="slide">
-		<h2>All kind of lists</h2>
-		<ol>
-			<li>Simple lists are marked with bullets</li>
-			<li>Ordered lists begin with a number</li>
-			<li>You can even nest lists one inside another
-				<ul>
-					<li>Or mix their types</li>
-					<li>But do not go too far</li>
-					<li>Otherwise audience will be bored</li>
-				</ul>
-			</li>
-			<li>Look, seven rows exactly!</li>
-		</ol>
-	</section>
-
-	<section class="slide">
-		<h2>Serious citations</h2>
-		<figure>
-			<blockquote>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-			</blockquote>
-			<figcaption>Marcus Tullius Cicero</figcaption>
-		</figure>
-	</section>
-
-	<section class="slide">
-		<h2>Code samples</h2>
-		<pre>
-			<code>&lt;!DOCTYPE html&gt;</code>
-			<code class="mark">&lt;html lang="en"&gt;</code>
-			<code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-			<code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-			<code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-			<code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-			<code><mark>&lt;/head&gt;</mark></code>
-		</pre>
-	</section>
-
-	<section class="slide">
-		<h2>Even tables</h2>
-		<table>
-		<tr>
-			<th scope="col">Locavore</th>
-			<th>Umami</th>
-			<th>Helvetica</th>
-			<th>Vegan</th>
-		</tr>
-		<tr>
-			<th scope="row">Fingerstache</th>
-			<td>Kale</td>
-			<td>Chips</td>
-			<td>Keytar</td>
-		</tr>
-		<tr>
-			<th scope="row">Sriracha</th>
-			<td>Gluten-free</td>
-			<td>Ennui</td>
-			<td>Keffiyeh</td>
-		</tr>
-		<tr>
-			<th scope="row">Thundercats</th>
-			<td>Jean</td>
-			<td>Shorts</td>
-			<td>Biodiesel</td>
-		</tr>
-		<tr>
-			<th scope="row">Terry</th>
-			<td>Richardson</td>
-			<td>Swag</td>
-			<td>Blog</td>
-		</tr>
-		</table>
-		<p>It’s good to have information organized.</p>
-	</section>
-
-	<section class="slide" id="picture">
-		<h2>Pictures</h2>
-		<figure>
-			<img class="cover" src="pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
-			<figcaption class="copyright right white">
-				<a href="http://fiftyfootshadows.net/">© John Carey</a>
-			</figcaption>
-		</figure>
-		<style>
-			#picture h2 {
-				color: white;
-			}
-		</style>
-	</section>
-
-	<section class="slide">
-		<h2 class="shout shrink">You can even shout this way</h2>
-	</section>
-
-	<section class="slide">
-		<h2>Inner navigation</h2>
-		<ol>
-			<li>Lets you reveal list items one by one</li>
-			<li class="next">To keep some key points</li>
-			<li class="next">In secret from audience</li>
-			<li class="next">But it will work only once</li>
-			<li class="next">Nobody wants to see the same joke twice</li>
-		</ol>
-	</section>
-
-	<section class="slide" id="see-more">
-		<h2 class="shout">
-			<img src="pictures/logo.svg" alt="Shower logo">
-			<a href="https://github.com/shower/shower">See more on GitHub</a>
+		<h2>
+			А можно в этот раз покороче?
 		</h2>
-		<style>
-			#see-more h2 {
-				font-size: 100px
-			}
+		<ul>
+			<li>О двух мышлениях</li>
+			<li>О том как их подружить</li>
+			<!-- <li>Немножечко материалов по теме</li> -->
+		</ul>
+	</section>
 
-			#see-more img {
-				width: 0.72em;
-				height: 0.72em;
+	<section class="slide disclaimer">
+		<h2>DISCLAIMER</h2>
+		<p class="" style="font-size: 36px; text-align: center;">
+			В нашем мире не всё, везде и всегда,
+			<br>
+			а кое-что, иногда и местами*
+		</p>
+		<p class="next" style="position: absolute; bottom: 10px; color: lightgray">
+			*Никакие правила не влияют на результат, они влияют на вероятность того или иного исхода
+		</p>
+		<style>
+			.disclaimer {
+				background-color: black;
+			}
+			.disclaimer h2 {
+				color: red;
+				text-align: center;
+			}
+			.disclaimer p {
+				color: white;
+				line-height: 1.3;
 			}
 		</style>
 	</section>
 
-	<footer class="badge">
-		<a href="https://github.com/shower/shower">Fork me on GitHub</a>
-	</footer>
+	<section class="slide picture">
+		<!-- <h2>It's a trap!</h2> -->
+		<img class="cover width height" src="pictures/PWI5/its-a-trap.jpg" alt="its a trap">
+	</section>
+
+	<section class="slide">
+		<h2>Два мышления</h2>
+		<!-- <p>
+			Человеческое мышление разделено на, как минимум, две важные составляющие.
+			Мы приготовили их наиболее популярные названия, но давайте сначала вы попробуете сами угадать как они называются.
+		</p> -->
+		<ul>
+			<li class="next">Сердце и Мозг</li>
+			<li class="next">Сознание и Подсознание</li>
+			<li class="next">Обезьянка и Рациональный тип</li>
+			<li class="next">Слон и Погонщик</li>
+			<li class="next">Неокортекс и Лимбический мозг <p class="note">+ Рептильный мозг</p></li>
+			<li class="next">Система 1 и Система 2</li>
+			<li class="next"><mark>Животное и Человек</mark></li>
+			<li class="next note">Пассажир и машинист, эго и ид, контроль и автоматика, аналитика и интуиция, рефлексия и импульсивность...</li>
+		</ul>
+	</section>
+
+	<section class="slide picture">
+		<h2>Животное у руля</h2>
+		<ul>
+			<li>«Может ещё кусочек?»</li>
+			<li>«Ах, какая самочка/самец!»</li>
+			<li>«Сложно, мне лень думать»</li>
+			<li>«В понедельник начну с чистого листа»</li>
+			<li>«Каким же идиотом я вчера был»</li>
+			<li>«Бох поможет» / «Авось пронесёт»</li>
+			<li>«Каким же идиотом я вчера был»</li>
+			<li>«*@#$% &%@* #%&@#»</li>
+		</ul>
+		<!-- <img src="pictures/PWI-pt4/2.png" alt=""> -->
+	</section>
+
+	<section class="slide picture">
+		<h2>Интерактив</h2>
+		<!-- <span>Знакомим зрителей с когнитивными искажениями</span> -->
+		<p>
+			Бита и мяч вместе стоят 1 доллар и 10 центов, известно что бита на 1 доллар дороже. Сколько стоит мяч?
+		</p>
+		<p class="next">
+			<b>Ответ:</b> 5 центов
+		</p>
+	</section>
+
+	<section class="slide picture">
+		<h2>Интерактив</h2>
+			<div class="columns two">
+				<p>
+					Линде 31 год, она не замужем, откровенная и очень умная. В университете изучала философию. Будучи студенткой, она уделяла много внимания вопросам дискриминации и социальной справедливости, а также участвовала в демонстрациях против использования ядерного оружия.
+					ди
+				</p>
+
+				<!-- <p>
+					<ul>
+						<li>Линда — учительница начальной школы.</li>
+						<li>Линда работает в книжном магазине и занимается йогой.</li>
+						<li>Линда — активистка феминистского движения.</li>
+						<li>Линда — социальный работник в психиатрии.</li>
+						<li>Линда — член Лиги женщин-избирательниц.</li>
+						<li>Линда — кассир в банке.</li>
+						<li>Линда — страховой агент.</li>
+						<li>Линда — кассир в банке и активистка феминистского движения.</li>
+					</ul>
+				</p> -->
+			</div>
+				<!-- Неприятие потери -->
+		<!-- <img src="pictures/PWI-pt4/4.png" alt=""> -->
+	</section>
+
+	<section class="slide picture">
+		<h2>Детальное знакомство</h2>
+		<!-- <img src="pictures/PWI-pt4/3.png" alt=""> -->
+	</section>
+
+	<section class="slide">
+		<h2>Животное</h2>
+		<ul>
+			<li>Выносливое <strong style="font-size: 26px">+</strong></li>
+			<li>Неприхотливое <strong style="font-size: 26px">+</strong></li>
+			<li>Простое <strong style="font-size: 26px">+</strong></li>
+			<li>Действует на автомате <strong style="font-size: 26px">±</strong></li>
+			<li>Делает когнитивные ошибки <strong style="font-size: 26px">-</strong></li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Человек</h2>
+		<ul>
+			<li>Умный <strong style="font-size: 26px">+</strong> </li>
+			<li>Спокойный <strong style="font-size: 26px">+</strong> </li>
+			<li>Сфокусированный <strong style="font-size: 26px">+</strong> </li>
+			<li>Контролирует, планирует и терпит <strong style="font-size: 26px">±</strong></li>
+			<li>Быстро устаёт <strong style="font-size: 26px">-</strong> </li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Аналогия с Батарейкой</h2>
+		<p class="next">
+			Рептильный мозг
+			<!-- Появился у рептилий. Самые базовые потребности. -->
+		</p>
+		<p class="next">
+			Лимбическая система
+			<!-- Появилась у первых млекопитающих. Окутывает верхнюю часть ствола головного мозга, будто поясом, и образует его край. Это не отдельная система, но скопление структур из конечного мозга, промежуточного мозга (диэнцефалона), и среднего мозга (мезэнцефалона).
+
+			Участвует в регуляции функций внутренних органов, обоняния, автоматической регуляции, эмоций, памяти, сна, бодрствования и др. -->
+		</p>
+		<p class="next">
+			Префронтальная кора
+			<!-- Есть у дельфинов и человекообразных обезьян. -->
+		</p>
+	</section>
+
+	<section class="slide picture">
+		<h2>Как быть человеком дольше?</h2>
+		<ul>
+			<li>Скучать и отдыхать</li>
+			<li>Формулировать задачи</li>
+			<li>Очищать инфосреду</li>
+			<li>Работать небольшими отрезками времени</li>
+			<li>Отказатя от иллюзии целостной личности</li>
+		</ul>
+		<img class="cover" src="pictures/PWI-pt4/analyze-example-1.jpg" alt="">
+	</section>
+
+	<section class="slide picture">
+		<h2>Как тратится ресурс батарейки?</h2>
+		<img class="cover" src="pictures/PWI-pt4/analyze-example-2.jpg" alt="">
+	</section>
+
+	<section class="slide picture">
+		<h2>Как использовать ресурс?</h2>
+		<ul>
+			<li>Наращивать ёмкость</li>
+			<li>Экономить</li>
+			<li>Сокращать издержки</li>
+		</ul>
+		<img class="cover" src="pictures/PWI-pt4/analyze-example-3.png" alt="">
+	</section>
+
+	<section class="slide picture">
+		<h2>Живи теперь с этим</h2>
+		<ul>
+			<li>Откажитесь от уведомлений</li>
+			<li>Отдыхайте каждые ~полчаса</li>
+			<li>Настройте информационную среду</li>
+			<li>Думайте часто, но помалу</li>
+			<li>Записывайте все идеи</li>
+			<li>Под задачей подразумевайте лишь первый шаг к ней</li>
+			<li>Прочтите первую главу «Гарри Поттер и методы рационального мышления»</li>
+		</ul>
+		<img class="cover" src="pictures/PWI-pt4/analyze-example-4.jpg" alt="">
+	</section>
+
+	<section>
+		<h2>Список материалов</h2>
+		<ul>
+			<li>Джедайские техники</li>
+			<li>Информационная псевдодебильность</li>
+			<li>Почему вас всё бесит</li>
+			<li>Помодоро</li>
+			<li>ГПМРМ</li>
+			<li>LessWrong</li>
+			<li>Как заставить мозг учиться? https://knife.media/neuroplasticity/</li>
+			<li>Сила воли. Как развить и укрепить</li>
+			<li>Белая книга</li>
+			<li>Менсология</li>
+			<li>Nice&Easy</li>
+			<li>Макс Черепица</li>
+			<li>Выступление Курпатова на Design Prosmotr</li>
+			<li>Список и описание когнитивных искажений
+				https://4brain.ru/blog/%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</li>
+			<li>Андрей Курпатов Лайфхак силы воли https://www.instagram.com/p/BizUjy6g6ku/</li>
+		</ul>
+	</section>
+
+	<section class="slide" id="promo">
+		<h3 style="text-align: center; font-size: 30px; line-height: 1.3; margin: -60px 0 30px 0;">
+			Адрес этой презентации:
+			<br>
+			<a href="https://mrtnsn.me/shows/motivation" style="font-weight: 700; width: auto">mrtnsn.me/shows/motivation</a>
+		</h3>
+		<div>
+			<p style="text-align: center; margin-bottom: 0">Youtube</p>
+			<a href="https://www.youtube.com/channel/UCeDE0a0dCVm0x4XTKVbD4rQ">
+				<img src="pictures/protopilot.png" alt="">
+				Протопилот Альфаᵝ
+			</a>
+		</div>
+		<div>
+			<p style="text-align: center; margin-bottom: 0">Telegram</p>
+			<a href="https://t.me/protopilot">
+				<img src="pictures/sticker.png" alt="">
+				@protopilot
+			</a>
+		</div>
+		<style>
+			#promo>div {
+				display: inline-block;
+				width:48%;
+				height: 60%;
+				margin-top: 50px;
+			}
+			#promo a {
+				text-decoration: underline;
+				display: inline-flex;
+				flex-flow: column nowrap;
+				align-items: center;
+				justify-content: center;
+				background: none;
+				width: 100%;
+			}
+			#promo img {
+				width:130px;
+			}
+		</style>
+	</section>
 
 	<div class="progress"></div>
 
