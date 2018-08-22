@@ -2721,6 +2721,12 @@ shower-material@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/shower-material/-/shower-material-2.1.2.tgz#45b386635ae214b0894c8a22d4f1f47dfeebfe11"
 
+shower-pwi-theme@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/shower-pwi-theme/-/shower-pwi-theme-1.0.0.tgz#df35eeba4c425080501044185a9dc2f2b766f462"
+  dependencies:
+    shower-material "^2.1.2"
+
 shower-ribbon@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/shower-ribbon/-/shower-ribbon-3.1.2.tgz#95f380a8c801bb0f6e88ef479c09b480841acdb7"
