@@ -14,8 +14,9 @@
     margin-bottom: 1em;
 }
 
-.slide p.note {
-    color: var(--color-medium);
+.note {
+	color: var(--color-medium);
+	font-size: 20px;
 }
 
 .slide figure {
