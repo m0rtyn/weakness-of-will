@@ -1,0 +1,113 @@
+#stimuli {
+	display: none;
+}
+
+.disclaimer {
+	background-color: black;
+}
+
+.disclaimer h2 {
+	color: var(--color-key);
+	text-align: center;
+}
+
+.disclaimer p {
+	color: white;
+	line-height: 1.3;
+}
+
+
+#cover h2 {
+	margin:30px 0 0;
+	text-align:left;
+	font-weight: bold;
+	font-size:70px;
+	}
+#cover p {
+	margin:10px 0 0;
+	text-align:left;
+	font-size:30px;
+}
+#cover span {
+	position: absolute;
+	bottom: 16px;
+}
+
+.link {
+	margin: 30px 30px;
+	font-size: 20px;
+}
+
+.text-small {
+	font-size: 16px !important;
+}
+
+.text-large {
+	font-size: 32px !important;
+}
+
+.picture .cover {
+	padding: 16px;
+	box-sizing: border-box;
+}
+
+/* .enum li::before {
+	content: '' !important;
+} */
+
+.enum li {
+	padding: 8px;
+}
+.enum li::before {
+	font-size: 40px;
+	line-height: 1.1;
+	font-weight: bold;
+}
+.enum .plus::before {
+	content: '+' !important;
+}
+.enum .plus-minus::before {
+	content: '±' !important;
+}
+.enum .minus::before {
+	content: '-' !important;
+	color: var(--color-key);
+}
+
+.about-brains h2 {
+	background-color: white;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	padding: 50px 0;
+}
+.about-brains img {
+	object-position: -160px 20px;
+}
+
+.conclusion ul {
+	font-size: 16px;
+}
+
+
+#promo>div {
+	display: inline-block;
+	height: 60%;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#promo a {
+	text-decoration: underline;
+	display: inline-flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	background: none;
+	width: 100%;
+}
+#promo img {
+	width:130px;
+}
