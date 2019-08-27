@@ -1,0 +1,17 @@
+#stimuli {
+	display: none;
+}
+
+.disclaimer {
+	background-color: black;
+}
+
+.disclaimer h2 {
+	color: var(--color-key);
+	text-align: center;
+}
+
+.disclaimer p {
+	color: white;
+	line-height: 1.3;
+}
