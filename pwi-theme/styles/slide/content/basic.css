@@ -16,7 +16,7 @@
 
 .note {
 	color: var(--color-medium);
-	font-size: 20px;
+	/* font-size: 20px; */
 }
 
 .slide figure {
